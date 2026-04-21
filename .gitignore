@@ -1,0 +1,27 @@
+# Data files — regenerate by running BusinessCase_preprocess.ipynb
+*.npz
+Audiobooks_data.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
