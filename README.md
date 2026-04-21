@@ -22,6 +22,8 @@ An audiobook platform wants to reduce marketing spend by identifying which custo
 
 The dataset is imbalanced (~68% negative class), so it is balanced before training by removing excess negative samples.
 
+![Class Distribution](images/class_balance.png)
+
 ## Approach
 
 | Step | Notebook |
@@ -33,6 +35,8 @@ The dataset is imbalanced (~68% negative class), so it is balanced before traini
 1. Balance classes (equal number of `0` and `1` targets)
 2. Standardize inputs with `sklearn.preprocessing.scale`
 3. Shuffle and split into train / validation / test (80 / 10 / 10)
+
+![Feature Correlation Heatmap](images/correlation_heatmap.png)
 
 **Model architecture (TensorFlow / Keras):**
 ```
@@ -51,6 +55,10 @@ Input (10 features)
 |---|---|
 | Validation | ~83% |
 | **Test** | **81.70%** |
+
+![Training Curves](images/training_curves.png)
+
+![Confusion Matrix](images/confusion_matrix.png)
 
 ## Setup
 

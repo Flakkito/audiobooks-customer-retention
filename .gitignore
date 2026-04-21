@@ -1,3 +1,6 @@
+# Generated images (tracked in repo)
+!images/
+
 # Data files — regenerate by running BusinessCase_preprocess.ipynb
 *.npz
 Audiobooks_data.csv
